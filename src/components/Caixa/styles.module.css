@@ -1,28 +1,61 @@
 .caixa {
-    display:flex; 
-    justify-content: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    min-height: 50vh;
-    color: white;
-    background-color: black;
-}
-.botao_sim {
-    background-color: black;
-    min-height: 30px;
-    padding: 10px;
-    margin: 10px;
-    border: 2px green solid;
-    border-radius: 4px;
-    font-size: 20px;
+  }
+  
+  .titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .botao_sim {
+    background-color: #f5f5f5;
+    border: 1px green solid;
+    border-radius: 5px;
     color: green;
-}
-.botao_nao {
-    background-color: black;
-    min-height: 30px;
-    padding: 10px;
-    border: 2px red solid;
-    border-radius: 4px;
-    font-size: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .botao_nao {
+    background-color: #f5f5f5;
+    border: 1px red solid;
+    border-radius: 5px;
     color: red;
-    margin: 10px;
-}
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .botao_voltar {
+    background-color: #f5f5f5;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
