@@ -1,0 +1,28 @@
+.caixa {
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    color: white;
+    background-color: black;
+}
+.botao_sim {
+    background-color: black;
+    min-height: 30px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px green solid;
+    border-radius: 4px;
+    font-size: 20px;
+    color: green;
+}
+.botao_nao {
+    background-color: black;
+    min-height: 30px;
+    padding: 10px;
+    border: 2px red solid;
+    border-radius: 4px;
+    font-size: 20px;
+    color: red;
+    margin: 10px;
+}
